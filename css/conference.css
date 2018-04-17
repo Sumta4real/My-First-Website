@@ -1,102 +1,32 @@
-
-body{
-    background-color: lawngreen;
-    color: white;
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-attachment: scroll;
-}
-.container
-{
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
-}
-/* typography */
-
-h1,h3,h4,h5,p
-{
-    margin-bottom: 22px;
-}
-.btn
-{
-    border-radius:5px;
-    display: inline-block;
-    margin: 0;
-    
-}
-.btn-alt
-{
-    border: 1px solid #dfe2e5;
-    padding: 10px 30px;
-}
-.hero
-{
-    padding: 22px 80px 66px 80px;
-}
-
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-li{
-    float: left;
-}
-li a{
-    display: block;
-    padding: 14px 16px;
-    border-right: 1px solid brown;
-}
-.active{
-    color: white;
-    background-color: green;
-}
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333333;
+			}
 
-}
-#bottom{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-.form{
-    margin: auto;
-    border-color: aqua;
-}
-div{
-    padding: 20px;
-    margin-top: 30px;background-color: #1abc9c;
-}
-h3{
-    color:blue;
-}
-h4{
-    color:brown;
-}
-p{
-    color:darkmagenta;
-}
-h5{
-    color:cornsilk;
-}
-/*a:active{
-    color: green;
+			li{
+				float: right;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 16px;;
+				text-decoration: none;
+			}
+
+li a:active{
     text-decoration: underline;
-    background-color: black;
+    background-color: #333333;
 }
-a:visited{
-    color: red;
+li a:visited{
     text-decoration: none;
-    background-color: white;
+    background-color: #222222;
 }
-a:hover{
-    color: blue;
+li a:hover{
     text-decoration: underline;
-    background-color: bisque;
-}*/
+    background-color: #111111;
+}
