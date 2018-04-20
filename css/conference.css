@@ -18,9 +18,10 @@ ul{
 				text-decoration: none;
 			}
 
-li a:active{
+.active{
+	color: yellow;
     text-decoration: underline;
-    background-color: #333333;
+    background-color: red;
 }
 li a:visited{
     text-decoration: none;
