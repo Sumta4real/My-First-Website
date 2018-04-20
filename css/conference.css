@@ -7,7 +7,7 @@ ul{
 			}
 
 			li{
-				float: right;
+				float: left;
 			}
 
 			li a {
@@ -16,15 +16,31 @@ ul{
 				text-align: center;
 				padding: 16px;;
 				text-decoration: none;
-			}
-
+                }
 .active{
-	color: red;
+    color: red;
     text-decoration: underline;
-    background-color:yellow;
+    background-color: yellow;
 }
+/*li a:visited{
+    color: red;
+    text-decoration: none;
+    background-color: #222222;
+}*/
 li a:hover{
-	color:blue;
+    color: blue;
     text-decoration: underline;
-    background-color: #111111;
+    background-color:#111111 ;
 }
+body{
+    background-color: lawngreen;
+    color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+
