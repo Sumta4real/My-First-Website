@@ -19,15 +19,12 @@ ul{
 			}
 
 .active{
-	color: yellow;
+	color: red;
     text-decoration: underline;
-    background-color: red;
-}
-li a:visited{
-    text-decoration: none;
-    background-color: #222222;
+    background-color:yellow;
 }
 li a:hover{
+	color:blue;
     text-decoration: underline;
     background-color: #111111;
 }
