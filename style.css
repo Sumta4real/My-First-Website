@@ -1,14 +1,10 @@
 body{
-	color: darkorchid;
+	color: #6841f4;
+	background-color: #42eef4;
+	font-family: helvetica;
 }
 
-a:visited{
-	color: blue;
-}
 
-a:active{
-	color: yellow;
-	
 }
 
 a:hover{
@@ -19,7 +15,7 @@ a:hover{
 }
 
 h3,h4,h5{
-	font-family: "Courier New", Monospace;
+	font-family: Verdona;
 	font-size: 20px;
 
 }
@@ -27,9 +23,11 @@ h3,h4,h5{
 .nav{
 	list-style: none;
 	overflow: hidden;
-	margin-top: 0px;
+	margin: 0px;
 	padding: 0px;
-	background-color: rgb(200,164,230)
+	background-color:#41cdf4;
+	
+
 }
 
 li a{
@@ -38,6 +36,7 @@ li a{
 	text-align: center;
 	float: right;
 	padding: 15px;
+	color: ;
 }
 
 .image1{
@@ -53,21 +52,22 @@ li a{
 
 .SkillList{
 	font-weight: bold;
-	font-family: cursive;
+	font-family: Times;
 	list-style: none;
 
 }
 
 .heading{
-	font-family: cursive;
+	font-family: Courier New;
 	font-weight: bold;
 
 }
 
 h1{
-	font-family: cursive;
+	font-family: Palatino;
 	text-align: center;
-	color: purple;
+	color: #415cf4; 
+	
 }
 .icons{    
 	display: ruby-base;
@@ -82,7 +82,7 @@ p{
 	list-style: none;
 	font-size: 22px;
 	line-height: 1.5;
-	color: darkorchid;
+	color: #42f4a1;
 }
 
 .career{
@@ -159,7 +159,4 @@ textarea{
 			color: black;
 			margin-top: 10px;
 		}
-.button{
-	position: left;
-}
 		
