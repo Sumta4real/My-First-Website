@@ -1,6 +1,6 @@
 body{
 	color: #6841f4;
-	background-color: #42eef4;
+	/*background-color: #42eef4;*/
 	font-family: helvetica;
 }
 
@@ -43,6 +43,9 @@ li a{
 	border-radius: 250px;
 	border-style: solid;
 	border-color: gold;
+	/*-ms-transform: rotate(20deg); /* IE 9 */
+    /*-webkit-transform: rotate(20deg); /* Safari */
+    /*transform: rotate(20deg);*/
 }
 
 
@@ -86,11 +89,50 @@ p{
 
 .career{
 	font-size: 22px;
+	list-style: none;
 }
 
 .skill{
 	font-size: 20px;
 }
+
+#left{
+	float: left;
+	width: 50%;
+
+ 
+}
+#right{
+	float: right;
+	width: 50%;
+}
+#ContentRight{
+	
+    float: right;
+    /*border: 3px solid #73AD21;*/
+    right:0px;
+
+
+}
+
+
+#ContentLeft{
+    float: left;
+    left: 0px;
+}  
+/*.image2{
+	 position: absolute;
+   /* left: 0px;
+    top: 0px;
+    z-index: -1;
+}*/
+
+.clearfix{
+    /*border: 3px solid #73AD21;*/
+    padding: 10px;
+    overflow: auto;
+} 
+  
 
 form{
 	font-size: 20px;
@@ -127,9 +169,7 @@ form{
 			background: #007bb5;
 			color: white;
 		}
-form{
-			background-color: antiquewhite;
-			color: darkolivegreen;
+form{ 
 			width: 100%;
 
 
@@ -158,4 +198,5 @@ textarea{
 			color: black;
 			margin-top: 10px;
 		}
+
 		
