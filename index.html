@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>My CV</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="CSS/style.css"  type="text/css"/>
 </head>
 <body>
 	<ul class="nav">
@@ -21,18 +21,21 @@
 		<h1>Taiwo Sumayyah Amoke</h1>
 		<h3>sumty4deen@gmail.com</h3>
 		</div>
-	<div id="CareerObjective">
+	<div id="CareerObjective" class="clearfix" >
 		<h1 class="icons">CAREER OBJECTIVE</h1>
-		<img src="img.jpg" height="500px" width="100%">
-		<ul class="career">
-			<li>To continually develop myself and excel in my career path </li>
-			<li>To use the acquired knowledge to contribute to the growth of the nation'seconomy as well as aid the technological advancement of the world at large.</li>
-		</ul>
+		<div id="ContentRight" >
+		<img src="img.jpg" height="500px" alt="career image" id="left">
+		<p>
+			To continually develop myself and excel in my career path </br>
+			To use the acquired knowledge to contribute to the growth of the nation's economy as well as aid the technological advancement of the world at large.</p>
+		
 	</div>
-	<div id="Skills">
+	
+	<div id="Skills" class="clearfix">
 		<h1 class="icons">SKILLS</h1>
-		<img src="imgs.jpg" height="500px" width="100%">
-
+	
+		<img src="imgs.jpg" height="500px" alt ="Skill image" id="right"  >
+		<div id="ContentLeft">
 		<ul>
 			<li class="SkillList">ICT SKILLED TOOLS</li>
 				<ul class="skill">
@@ -56,11 +59,14 @@
 					<li>Puzzles</li>
 				</ul>
 		</ul>
+		</div>
 	</div>
-	<div id="Education">
+	
+	<div id="Education" class="clearfix">
 		<h1 class="icons">EDUCATION</h1>
-		<img src="educ.jpg" height="500px" width="100%">
 		
+		<img src="educ.jpg" height="500px" id="left" class="image2">
+		<div id="ContentRight">
 		<p class="heading">University of Lagos</p>
 		<p>(2014-Present) <br>
 			Systems Engineering <br>
@@ -79,11 +85,13 @@
 	    <p class="heading">Al-Wasi Children School</p>
 	    <p>(Sept 2001- July 2007) <br>
 	    First School Leaving Certificate</p>
+	    </div>
 	</div>
-
-	<div id="Leadership">
+	
+	<div id="Leadership"  class="clearfix"  id="ContentLeft">
 		<h1 class="icons">LEADERSHIP AND AWARDS</h1>
-		<img src="award.jpg" height="500px" width="100%">
+		<div >
+		<img src="award.jpg" height="500px" id="right">
 		<ul class="award">
 			<li>Member, Muslim software Developer(Musdev)</li>
 			<li>Member, Google Developers Group(GDG) UNILAG</li>
@@ -94,15 +102,47 @@
 			<li>Female leader(Ameerah), Muslim Sudent Society of Nigeria(MSSN), Vanguards Academy Branch</li>
 			<li>Second Best in Mathematics and Further Mathematics SS1-SS3</li>
 		</ul>
-		
+		</div>
 	</div>
 
+	<!--
 	<div>
 		
 		<h1 class="icons"> Contact Me</h1>
-	
 			
+			  <form action="domain.com/page.php?name=sumayyah&email=sumty4deen@gmail.com" method="get" target="_blank">
+                Name:
+                <br>
+                <input type="text" name="Your Name" placeholder="Your Name"> 
+                <br>
+                Rate my page: 
+                <br>
+                <input type="radio" name="rate" value="one" checked  maxlength="100%" required>
+                1
+                <br>
+                <input type="radio" name="rate" value="two" checked  maxlength="100%" required>
+                2
+                <br>
+                <input type="radio" name="rate" value="three" checked  maxlength="100%" required>
+                3
+                <br>
+                <input type="radio" name="rate" value="four" checked  maxlength="100%" required>
+                4
+                <br>
+                <input type="radio" name="rate" value="five" checked  maxlength="100%" required>
+                5
+                <br>
+                Want to have a word with me, drop it here: <br>
+                <textarea placeholder="Drop Your Comment">
+                </textarea>
+                 <br>
 
+                <input type="submit" name="submit" onclick="alert('Thank you for visiting my page')">
+            </form>
+	    -->
+            </div>
+      
+			
 				<a href="#" class="fa fa-facebook"></a>
 				
 				<a href="http://twitter.com/sumayyah_amoke" class="fa fa-twitter"></a>
